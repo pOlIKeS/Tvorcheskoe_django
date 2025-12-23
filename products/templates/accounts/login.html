@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Вход - GreenPleasure{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="text-center">Вход в аккаунт</h3>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <input type="hidden" name="next" value="{{ next }}">
+                    
+                    <div class="mb-3">
+                        <label for="{{ form.username.id_for_label }}" class="form-label">Имя пользователя</label>
+                        {{ form.username }}
+                        {% if form.username.errors %}
+                            <div class="text-danger">{{ form.username.errors }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="{{ form.password.id_for_label }}" class="form-label">Пароль</label>
+                        {{ form.password }}
+                        {% if form.password.errors %}
+                            <div class="text-danger">{{ form.password.errors }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Войти</button>
+                    </div>
+                </form>
+                
+                <div class="text-center mt-3">
+                    <p>Нет аккаунта? <a href="{% url 'accounts:register' %}">Зарегистрироваться</a></p>
+                </div>
+                <div class="text-center mt-3">
+                    <h4>Тестовый аккаунт</h4>
+                    <p>test</p>
+                    <p>fsdlgkns44sl9</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

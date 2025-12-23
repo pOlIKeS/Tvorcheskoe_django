@@ -1,0 +1,86 @@
+/* Custom styles for GreenPleasure */
+
+/* Card hover effect */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    color: #28a745 !important;
+}
+
+/* Product image placeholder */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-outline-primary {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-primary:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+/* Badge styles */
+.badge.bg-success {
+    background-color: #28a745 !important;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    
+    .btn {
+        font-size: 0.875rem;
+    }
+}
+
+/* Form controls */
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+/* Pagination */
+.page-item.active .page-link {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.page-link {
+    color: #28a745;
+}
+
+.page-link:hover {
+    color: #218838;
+}

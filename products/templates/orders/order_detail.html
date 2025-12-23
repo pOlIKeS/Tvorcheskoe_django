@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+
+{% block title %}Заказ #{{ order.id }} - GreenPleasure{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h2>Детали заказа #{{ order.id }}</h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>Состав заказа</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Товар</th>
+                                <th>Цена</th>
+                                <th>Количество</th>
+                                <th>Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in order.items.all %}
+                                <tr>
+                                    <td>
+                                        <div class="d-flex align-items-center">
+                                            {% if item.product.image %}
+                                                <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                            {% else %}
+                                                <div class="bg-light d-flex align-items-center justify-content-center me-3" style="width: 60px; height: 60px;">
+                                                    <i class="fas fa-image text-muted"></i>
+                                                </div>
+                                            {% endif %}
+                                            <div>
+                                                <h6 class="mb-0">{{ item.product.name }}</h6>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>{{ item.price_at_order }} ₽</td>
+                                    <td>{{ item.quantity }}</td>
+                                    <td>{{ item.total_price }} ₽</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>Информация о заказе</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Номер заказа:</strong> {{ order.id }}</p>
+                <p><strong>Дата:</strong> {{ order.created_at|date:"d.m.Y H:i" }}</p>
+                <p><strong>Статус:</strong> 
+                    {% if order.status == 'new' %}
+                        <span class="badge bg-warning">Новый</span>
+                    {% elif order.status == 'confirmed' %}
+                        <span class="badge bg-info">Подтвержден</span>
+                    {% elif order.status == 'completed' %}
+                        <span class="badge bg-success">Выполнен</span>
+                    {% endif %}
+                </p>
+                
+                <hr>
+                
+                <p><strong>Телефон:</strong> {{ order.phone }}</p>
+                <p><strong>Адрес доставки:</strong> {{ order.address }}</p>
+                
+                <hr>
+                
+                <p class="mb-1"><strong>Итого:</strong></p>
+                <h3>{{ order.total_price }} ₽</h3>
+            </div>
+        </div>
+        
+        <div class="d-grid gap-2">
+            <a href="{% url 'orders:order_list' %}" class="btn btn-outline-primary">
+                <i class="fas fa-arrow-left"></i> Назад к заказам
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}
