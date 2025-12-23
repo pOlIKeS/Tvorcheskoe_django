@@ -1,0 +1,620 @@
+[
+  {
+    "name": "Свежая морковь с грядки",
+    "description": "Сочная и сладкая морковь, выращенная без химии. Идеальна для детокса-соков, салатов и зимних заготовок — в ней в 2 раза больше каротина, чем в магазинной.",
+    "price": 149,
+    "category": "vegetables",
+    "weight": "1 кг",
+    "calories": "35 ккал",
+    "protein": "1.3г",
+    "carbs": "7.2г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/13087/f88d1a-730x604.JPG?v=3",
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/13087/6ef78c-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Сочные помидоры-черри",
+    "description": "Помидоры, созревшие под солнцем — с тонкой кожицей и медовой сердцевиной. Собираем урожай каждые 3 дня, чтобы вы получали только свежайшую партию.",
+    "price": 199,
+    "category": "vegetables",
+    "weight": "500 г",
+    "calories": "18 ккал",
+    "protein": "0.8г",
+    "carbs": "3.5г",
+    "fat": "0.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16604/659c71-730x604.jpg?v=3",
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16604/02792a-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Нежный шпинат",
+    "description": "Листья шпината с утренней росой — собираем вручную до 9 утра. Сохраняет максимум железа и витамина K благодаря бережной доставке в вакуумной упаковке.",
+    "price": 129,
+    "category": "vegetables",
+    "weight": "300 г",
+    "calories": "22 ккал",
+    "protein": "2.5г",
+    "carbs": "1.1г",
+    "fat": "0.5г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/11656/c9bda9-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Огурцы корнишоны",
+    "description": "Хрустящие мини-огурчики для идеальных заготовок. Собираем в стадии молочной спелости — кожица тонкая, семена не грубеют даже при длительном хранении.",
+    "price": 179,
+    "category": "vegetables",
+    "weight": "600 г",
+    "calories": "14 ккал",
+    "protein": "0.7г",
+    "carbs": "2.8г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16602/a08b1b-730x604.jpeg?v=3"
+    ]
+  },
+  {
+    "name": "Репчатый лук",
+    "description": "Золотистый лук с насыщенным ароматом — выращен в черноземе, богатом органикой. Идеален для золотистой поджарки и маринадов: не горчит даже в свежих салатах.",
+    "price": 89,
+    "category": "vegetables",
+    "weight": "1 кг",
+    "calories": "40 ккал",
+    "protein": "1.1г",
+    "carbs": "9.3г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/9383/e5f347-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Молодая капуста",
+    "description": "Капуста нового урожая — сочные хрустящие листья без горечи. Отлично подходит для быстрых салатов «Коул слоу» и нежных голубцов.",
+    "price": 129,
+    "category": "vegetables",
+    "weight": "800 г",
+    "calories": "28 ккал",
+    "protein": "1.8г",
+    "carbs": "5.8г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/11109/a071d1-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Ароматный чеснок",
+    "description": "Острые зубчики с насыщенным запахом — выращен без гербицидов. Дольки легко чистятся благодаря плотной оболочке, сохраняет аромат до 6 месяцев в холодильнике.",
+    "price": 159,
+    "category": "vegetables",
+    "weight": "250 г",
+    "calories": "130 ккал",
+    "protein": "6.5г",
+    "carbs": "25г",
+    "fat": "0.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/13687/36528a-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Редиска с грядки",
+    "description": "Розовые хрустящие редиски — собираем утром в день отгрузки. Сочная мякоть с легкой пикантностью, идеальна для завтраков с маслом и зеленью.",
+    "price": 109,
+    "category": "vegetables",
+    "weight": "400 г",
+    "calories": "16 ккал",
+    "protein": "0.7г",
+    "carbs": "3.4г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/3104/f00454-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Куриная грудка",
+    "description": "Нежное филе из охлажденной тушки — без воды и отдушек. Белок усваивается на 95%, идеально для спортпитания и диетического стола.",
+    "price": 349,
+    "category": "meat",
+    "weight": "600 г",
+    "calories": "110 ккал",
+    "protein": "23г",
+    "carbs": "0г",
+    "fat": "1.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/2961/0a3929-730x604.JPG?v=3",
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/2961/8395f8-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Говяжий стейк",
+    "description": "Стейк из вырезки травяного откорма — мраморная структура, насыщенный вкус. Рекомендуем готовить на гриле до medium-rare с крупной солью.",
+    "price": 599,
+    "category": "meat",
+    "weight": "450 г",
+    "calories": "250 ккал",
+    "protein": "26г",
+    "carbs": "0г",
+    "fat": "17г",
+    "in_stock": false,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16999/886ea8-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Свиные ребрышки",
+    "description": "Ребра с толстым слоем мяса и естественной жировой прослойкой. Запекайте в духовке с медово-горчичным маринадом — получится сочно и ароматно.",
+    "price": 499,
+    "category": "meat",
+    "weight": "1.2 кг",
+    "calories": "320 ккал",
+    "protein": "28г",
+    "carbs": "0г",
+    "fat": "22г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16949/4385ad-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Баранья шея",
+    "description": "Ароматное мясо для тушеных блюд — идеально для лагмана и плова. При длительном приготовлении становится невероятно нежным, буквально тает во рту.",
+    "price": 649,
+    "category": "meat",
+    "weight": "800 г",
+    "calories": "280 ккал",
+    "protein": "18г",
+    "carbs": "0г",
+    "fat": "22г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16985/993ceb-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Говяжий столовый край",
+    "description": "Отборный кусок для стейков и быстрого жарения. Мясо с выраженной мраморностью — при готовке образует румяную корочку с сочной сердцевиной.",
+    "price": 529,
+    "category": "meat",
+    "weight": "500 г",
+    "calories": "270 ккал",
+    "protein": "25г",
+    "carbs": "0г",
+    "fat": "18г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16999/886ea8-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Колбаски для гриля",
+    "description": "Сочные колбаски по домашнему рецепту — свинина и говядина в идеальной пропорции, приправы без глутамата. Готовы к жарке: размораживать не нужно!",
+    "price": 399,
+    "category": "meat",
+    "weight": "6 шт.",
+    "calories": "290 ккал",
+    "protein": "14г",
+    "carbs": "2г",
+    "fat": "24г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17475/9c6c8a-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Куриные голени",
+    "description": "Голени в вакуумной упаковке — быстрая заморозка сохраняет сочность. Отличны для запекания в духовке с травами или приготовления в аэрогриле.",
+    "price": 279,
+    "category": "meat",
+    "weight": "1 кг",
+    "calories": "180 ккал",
+    "protein": "20г",
+    "carbs": "0г",
+    "fat": "10г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/2944/af3e8c-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Свежее молоко",
+    "description": "Цельное молоко от коров, пасущихся на альпийских лугах. Жирность 3.5% — идеально для кофе, овсянки и домашних десертов.",
+    "price": 179,
+    "category": "dairy",
+    "weight": "950 мл",
+    "calories": "62 ккал",
+    "protein": "3.2г",
+    "carbs": "4.7г",
+    "fat": "3.4г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/862/7c54a9-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Твердый сыр",
+    "description": "Сыр, выдержанный 6 месяцев в горной пещере. Сливочный вкус с ореховыми нотками — подавайте с инжиром и грецкими орехами.",
+    "price": 299,
+    "category": "dairy",
+    "weight": "400 г",
+    "calories": "380 ккал",
+    "protein": "24г",
+    "carbs": "1.2г",
+    "fat": "31г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/14527/33d510-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Греческий йогурт",
+    "description": "Йогурт двойного процеживания — густой, как сметана. Белок 10г/100г, подходит для кето-диеты и постных заправок.",
+    "price": 149,
+    "category": "dairy",
+    "weight": "450 г",
+    "calories": "95 ккал",
+    "protein": "10г",
+    "carbs": "3.2г",
+    "fat": "5г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/14835/9d0fc5-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Творог 9%",
+    "description": "Зерненый творог из пастеризованного молока — нежная текстура без комочков. Идеален для сырников, вареников и завтраков с ягодами.",
+    "price": 219,
+    "category": "dairy",
+    "weight": "500 г",
+    "calories": "160 к kcal",
+    "protein": "18г",
+    "carbs": "2.5г",
+    "fat": "9г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/3310/43b7d5-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Сметана 20%",
+    "description": "Фермерская сметана с натуральной закваской — густая, без стабилизаторов. Отлично сочетается с борщом, варениками и ягодными десертами.",
+    "price": 189,
+    "category": "dairy",
+    "weight": "350 г",
+    "calories": "210 ккал",
+    "protein": "2.5г",
+    "carbs": "3г",
+    "fat": "20г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/14830/b3d66f-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Вишневый йогурт",
+    "description": "Натуральный йогурт с живыми культурами и сочной вишней без сахара. Содержит пробиотики для пищеварения — идеален для перекусов.",
+    "price": 129,
+    "category": "dairy",
+    "weight": "250 г",
+    "calories": "85 ккал",
+    "protein": "4г",
+    "carbs": "12г",
+    "fat": "3.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/765/c5ddea-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Сливочное масло",
+    "description": "Масло крестьянского способа — 82.5% жирность, сливочный аромат с ноткой карамели. Идеально для бутербродов, выпечки и сливочных соусов.",
+    "price": 349,
+    "category": "dairy",
+    "weight": "200 г",
+    "calories": "740 ккал",
+    "protein": "0.8г",
+    "carbs": "0.6г",
+    "fat": "82г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17494/9d5ec9-730x604.jpeg?v=3"
+    ]
+  },
+  {
+    "name": "Азербайджанский гранат",
+    "description": "Крупные гранаты с рубиновыми зернами, выращенные в солнечных предгорьях Кавказа. Сочные и сладкие с легкой терпкостью — идеальны для салатов и освежающих напитков.",
+    "price": 249,
+    "category": "fruits",
+    "weight": "1 шт. (350-400г)",
+    "calories": "72 ккал",
+    "protein": "0.7г",
+    "carbs": "17г",
+    "fat": "0.3г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16440/bff328-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Яблоки \"Флорина\"",
+    "description": "Хрустящие яблоки с медово-цитрусовым ароматом. Собираем вручную с деревьев возрастом 15+ лет — кожица тонкая, мякоть сочная даже в феврале благодаря естественной лежкости.",
+    "price": 189,
+    "category": "fruits",
+    "weight": "1 кг",
+    "calories": "47 ккал",
+    "protein": "0.3г",
+    "carbs": "11.8г",
+    "fat": "0.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/16462/6fc6dc-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Сочные лимоны",
+    "description": "Тонкокожие лимоны с мощным ароматом — собираем за 24 часа до отправки. 1 плод = суточная норма витамина С. Сохраняют свежесть 3 недели в холодильнике.",
+    "price": 129,
+    "category": "fruits",
+    "weight": "500 г",
+    "calories": "30 ккал",
+    "protein": "0.9г",
+    "carbs": "9.3г",
+    "fat": "0.3г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/1753/869333-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Мандарины с листочками",
+    "description": "Сбор урожая с веткой — так фрукты дольше остаются сочными. Без горечи и пленок, легко чистятся даже детьми. Сезонная партия с южных садов Турции.",
+    "price": 219,
+    "category": "fruits",
+    "weight": "1 кг",
+    "calories": "53 ккал",
+    "protein": "0.8г",
+    "carbs": "13.3г",
+    "fat": "0.3г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/14767/135d61-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Груши \"Форель\"",
+    "description": "Нежные груши с мускатным привкусом — созревают прямо в коробке за 2 дня. Идеальны для детских пюре и компотов. Упакованы в ячейки для защиты от ударов.",
+    "price": 229,
+    "category": "fruits",
+    "weight": "800 г",
+    "calories": "57 ккал",
+    "protein": "0.4г",
+    "carbs": "15.2г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/2872/e8c72b-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Виноград \"Кишмиш\"",
+    "description": "Сладкий виноград без косточек и плотной кожицей. Собираем кистями — сохраняет свежесть 2 недели в холодильнике. Проверен на отсутствие пестицидов.",
+    "price": 279,
+    "category": "berries",
+    "weight": "600 г",
+    "calories": "69 ккал",
+    "protein": "0.6г",
+    "carbs": "18г",
+    "fat": "0.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/5671/313d72-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Свежая голубика",
+    "description": "Дикорастущая голубика с Северного Кавказа — собираем вручную в июле. Богата антоцианами, сохраняет 90% полезных веществ при заморозке. Вакуумная упаковка продлевает срок хранения.",
+    "price": 349,
+    "category": "berries",
+    "weight": "250 г",
+    "calories": "57 ккал",
+    "protein": "0.7г",
+    "carbs": "14.5г",
+    "fat": "0.3г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/2669/baded8-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Виноград Шайн Мускат",
+    "description": "Элитный сорт с мускатным ароматом и медовым послевкусием. Гроздья весом до 700г — каждый ягода проверена на сахаристость (18+ Brix). Деликатная доставка в термоконтейнерах.",
+    "price": 429,
+    "category": "berries",
+    "weight": "500 г",
+    "calories": "71 ккал",
+    "protein": "0.5г",
+    "carbs": "17.2г",
+    "fat": "0.2г",
+    "in_stock": false,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17317/66a94d-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Пирог с капустой и яйцом",
+    "description": "Домашний рецепт бабушкиной пирог — тесто на сметане, капуста тушеная с яйцом и укропом. Заморожен сразу после выпечки — разогревайте 15 минут в духовке для хрустящей корочки.",
+    "price": 199,
+    "category": "bakery",
+    "weight": "450 г",
+    "calories": "245 ккал",
+    "protein": "8г",
+    "carbs": "32г",
+    "fat": "9г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/13091/9d3936-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Булочки для гамбургеров",
+    "description": "Пшеничные булочки по американскому рецепту — мягкие внутри, с кунжутом сверху. Удобная заморозка: размораживаются за 30 минут при комнатной температуре. Хватит на 4 сочных бургера.",
+    "price": 159,
+    "category": "bakery",
+    "weight": "4 шт.",
+    "calories": "265 ккал",
+    "protein": "8г",
+    "carbs": "48г",
+    "fat": "4г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17476/83dff2-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Лимонное песочное пирожное",
+    "description": "Нежное песочное тесто с лимонным кремом и цедрой. Без искусственных ароматизаторов — кислинку дают свежие соки. Подавайте охлажденным с чаем или мороженым.",
+    "price": 149,
+    "category": "bakery",
+    "weight": "100 г",
+    "calories": "380 ккал",
+    "protein": "4г",
+    "carbs": "52г",
+    "fat": "16г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17432/16278b-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Клюквенное песочное пирожное",
+    "description": "Хрустящая основа с клюквенным конфитюром и миндальной крошкой. Ягоды заморожены сразу после сбора — сохраняют витамин С и натуральную кислинку.",
+    "price": 159,
+    "category": "bakery",
+    "weight": "110 г",
+    "calories": "365 ккал",
+    "protein": "3.5г",
+    "carbs": "49г",
+    "fat": "15г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17431/c13817-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Острый халапеньо",
+    "description": "Маринованные перцы в рассоле с чесноком и кориандром. Идеальны для тако, бургеров или как закуска к мясу. Острота регулируется — семена оставлены для любителей пикантного вкуса.",
+    "price": 189,
+    "category": "preserves",
+    "weight": "450 г",
+    "calories": "20 ккал",
+    "protein": "0.9г",
+    "carbs": "4.5г",
+    "fat": "0.2г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/7330/e19909-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Маринованный острый перец",
+    "description": "Смесь перцев чили, болгарского и халапеньо в пряном рассоле. Без консервантов — кислинку дают яблочный уксус и лимонная кислота. Срок годности 12 месяцев.",
+    "price": 179,
+    "category": "preserves",
+    "weight": "500 г",
+    "calories": "22 ккал",
+    "protein": "0.8г",
+    "carbs": "5г",
+    "fat": "0.3г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/7334/232921-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Замороженная клубника с сахаром",
+    "description": "Садовая клубника, перетертая с сахаром 1:1. Заморожена методом IQF — ягоды не слипаются. Идеальна для домашних йогуртов, мороженого и быстрых десертов.",
+    "price": 299,
+    "category": "sweets",
+    "weight": "800 г",
+    "calories": "85 ккал",
+    "protein": "0.8г",
+    "carbs": "21г",
+    "fat": "0.4г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/15508/e67419-730x604.jpeg?v=3"
+    ]
+  },
+  {
+    "name": "Чизкейк «Нью-Йорк с клубникой»",
+    "description": "Классический нью-йоркский чизкейк на сливочном сыре Philadelphia. Сверху — свежие ягоды и зеркальный клубничный гель. Вес порции 250г — хватит на 2 персоны.",
+    "price": 499,
+    "category": "sweets",
+    "weight": "500 г",
+    "calories": "340 к kcal",
+    "protein": "7г",
+    "carbs": "28г",
+    "fat": "22г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17441/26077e-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Кабачковое варенье с лимоном",
+    "description": "Необычное варенье с цуккини, лимонной цедрой и ванилью. Низкокалорийная альтернатива джемам — всего 180 ккал на 100г. Отлично сочетается с творогом и блинами.",
+    "price": 219,
+    "category": "sweets",
+    "weight": "400 г",
+    "calories": "180 ккал",
+    "protein": "0.5г",
+    "carbs": "45г",
+    "fat": "0.1г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17171/b61e24-730x604.JPG?v=3"
+    ]
+  },
+  {
+    "name": "Чизкейк «Карамельный с арахисом»",
+    "description": "Насыщенный вкус соленой карамели и дробленого арахиса. Корж из овсяного печенья, начинка на сливочном сыре и сливках 33%. Готов к подаче — размораживается за 2 часа.",
+    "price": 549,
+    "category": "sweets",
+    "weight": "450 г",
+    "calories": "395 ккал",
+    "protein": "9г",
+    "carbs": "35г",
+    "fat": "26г",
+    "in_stock": true,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17443/2fc202-730x604.jpg?v=3"
+    ]
+  },
+  {
+    "name": "Чизкейк «Кленовый пекан»",
+    "description": "Премиальная версия с кленовым сиропом и орехами пекан. Верх покрыт хрустящей карамельной корочкой. Не содержит глютена — идеален для особого питания.",
+    "price": 579,
+    "category": "sweets",
+    "weight": "480 г",
+    "calories": "410 ккал",
+    "protein": "8.5г",
+    "carbs": "38г",
+    "fat": "28г",
+    "in_stock": false,
+    "image_urls": [
+      "https://cdn.esh-derevenskoe.ru/image/cache/catalog/product/17442/840bf7-730x604.jpg?v=3"
+    ]
+  }
+]
